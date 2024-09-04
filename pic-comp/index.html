@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture component</title>
+  <link rel="stylesheet" href="../assets/styles/reset.css">
+  <link rel="stylesheet" href="pic-comp.css">
+</head>
+<body>
+  <picture class="pic-comp">
+    <source media="(min-width: 56rem) and (orientation: landscape)" srcset="../assets/images/landscape.jpg">
+    <source media="(min-width: 32rem) and (orientation: portrait)" srcset="../assets/images/portrait.jpg">
+    <img class="pic-comp__image" src="../assets/images/square.jpg" alt="Image of a person">
+  </picture>
+</body>
+</html>

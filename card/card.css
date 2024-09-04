@@ -1,0 +1,104 @@
+@import url(../pic-comp/pic-comp.css);
+
+.card {
+  /* CARD BACKGROUND */
+  --background: var(--cl-neutral--900);
+
+  /* CARD BOX SHADOW */
+  /* "box-shadow-location" works weird, the keyword 'outset' has no effect 
+      but if you leave the custom property empty it does the job */
+  --box-shadow-location: ;
+  --box-shadow-offset-x: 0;
+  --box-shadow-offset-y: .125rem;
+  --box-shadow-blur-radius: .75rem;
+  --box-shadow-spread-radius: .125rem;
+  --box-shadow-color: hsla(0, 0%, 0%, .25);
+
+  --box-shadow : 
+    var(--box-shadow-location) 
+    var(--box-shadow-offset-x) 
+    var(--box-shadow-offset-y) 
+    var(--box-shadow-blur-radius) 
+    var(--box-shadow-spread-radius)
+    var(--box-shadow-color);
+
+  /* CARD BORDER */
+  --border-style: ;
+  --border-color: var(--cl-neutral--300);
+  --border-width: medium;
+
+  --border: 
+    var(--border-style) 
+    var(--border-color) 
+    var(--border-width);
+
+  /* CARD BORDER RADIUS */
+  --border-radius: 0;
+
+  /* CARD PADDING */
+  --padding-top: var(--module-800);
+  --padding-right: var(--module-800);
+  --padding-bottom: var(--module-800);
+  --padding-left: var(--module-800);
+
+  --padding: 
+    var(--padding-top) 
+    var(--padding-right) 
+    var(--padding-bottom)
+    var(--padding-left);
+}
+
+.card {
+  overflow: hidden;
+  background: var(--background);
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: var(--padding);
+}
+
+.card--demo { 
+  transition: box-shadow .4s;
+
+  --box-shadow: 0 4px 4px 0 hsla(197, 31%, 33%, .25);
+  --border-radius: .125rem;
+
+  
+  &:hover {
+    --box-shadow: 0 .25rem .75rem .75rem hsla(197, 31%, 33%, .125);
+  }
+
+
+  font-size:small;
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: auto auto 1fr auto;
+  
+  .pic-comp {
+    aspect-ratio: 1;
+  }
+
+  h1 {
+    font-size:large;
+    line-height: 1.4;
+    margin-block: 0;
+  }
+  
+  p {
+    margin-block: 0;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: var(--cl-neutral--200);
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 1.25em;
+    background: var(--cl-neutral--300);
+    color: var(--cl-neutral--900);
+    
+    &:hover {
+      background: var(--cl-neutral--200);
+    }
+  }
+}

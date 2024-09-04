@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+* {
+  --module-100:  0;
+  --module-200:  .125rem;
+  --module-300:  .25rem;
+  --module-400:  .5rem;
+  --module-500:  .75rem;
+  --module-600:  1rem;
+  --module-700:  1.25rem;
+  --module-800:  1.5rem;
+  --module-820:  2rem;
+  --module-850:  4rem;
+  --module-880:  6rem;
+  --module-900:  8rem;
+
+  --cl-neutral--100: hsl(0 0% 0%);
+  --cl-neutral--200: hsl(0 0% 10%);
+  --cl-neutral--300: hsl(0 0% 30%);
+  --cl-neutral--400: hsl(0 0% 40%);
+  --cl-neutral--500: hsl(0 0% 50%);
+  --cl-neutral--600: hsl(0 0% 60%);
+  --cl-neutral--700: hsl(0 0% 70%);
+  --cl-neutral--800: hsl(0 0% 90%);
+  --cl-neutral--900: hsl(0 0% 100%);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+	display: grid;
+	align-content: center;
+	margin: 0;
+	min-height: 100svh;
+	scrollbar-gutter: stable;
+  background: skyblue;
+  gap: 6rem;
+}
+
+img {
+  /* Prevent overflow */
+	max-width: 100%;
+
+  /* Overwrite image height attribute and keeps image original aspect ratio */
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 4rem 1rem;
+
+  & > * {
+    flex-basis: 20rem;
+  }
+}
