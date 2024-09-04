@@ -58,16 +58,15 @@
 }
 
 .card--demo { 
-  transition: box-shadow .4s;
+  transition: box-shadow .3s;
 
-  --box-shadow: 0 4px 4px 0 hsla(197, 31%, 33%, .25);
-  --border-radius: .125rem;
+  --box-shadow: 0 .25rem .25rem 0 hsla(197, 31%, 33%, .25);
+  --border-radius: .25rem;
 
   
   &:hover {
     --box-shadow: 0 .25rem .75rem .75rem hsla(197, 31%, 33%, .125);
   }
-
 
   font-size:small;
   display: grid;
@@ -75,6 +74,7 @@
   grid-template-rows: auto auto 1fr auto;
   
   .pic-comp {
+    border-radius: .125rem;
     aspect-ratio: 1;
   }
 
@@ -96,6 +96,7 @@
     padding: 1em 1.25em;
     background: var(--cl-neutral--300);
     color: var(--cl-neutral--900);
+    transition: background .3s;
     
     &:hover {
       background: var(--cl-neutral--200);
