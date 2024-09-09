@@ -45,21 +45,12 @@ body {
 }
 
 img {
-  /* Prevent overflow */
-	max-width: 100%;
+  /* Scale down images to fit on the screen*/
+  max-inline-size: 100%;
 
-  /* Overwrite image height attribute and keeps image original aspect ratio */
-  height: auto;
-}
+  /* Preserves images' aspect ratio */
+  block-size: auto;
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2.5rem;
-  padding: 4rem 1rem;
-
-  & > * {
-    flex-basis: 20rem;
-  }
+  /* Prevent squashing and stretching */
+  object-fit: cover;
 }
