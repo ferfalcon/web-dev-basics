@@ -1,0 +1,80 @@
+﻿/* Layout items in rows */
+
+.shelf {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: var(--layout-unit-400);
+}
+
+.shelf--centered {
+	justify-content: center
+}
+
+.shelf--end-justify {
+	justify-content: end
+}
+
+.shelf--spaced {
+	justify-content: space-between
+}
+
+.shelf--v-centered {
+	align-items: center
+}
+
+.shelf--start {
+	align-items: start
+}
+
+.shelf--base {
+	align-items: baseline
+}
+
+.shelf--no-wrap {
+	flex-wrap: nowrap
+}
+
+.shelf--spc-100 {
+	gap: var(--layout-unit-100)
+}
+
+.shelf--spc-200 {
+	gap: var(--layout-unit-200)
+}
+
+.shelf--spc-300 {
+	gap: var(--layout-unit-300)
+}
+
+.shelf--spc-400 {
+	gap: var(--layout-unit-400)
+}
+
+.shelf--spc-500 {
+	gap: var(--layout-unit-500)
+}
+
+.shelf--spc-600 {
+	gap: var(--layout-unit-600)
+}
+
+.shelf--spc-700 {
+	gap: var(--layout-unit-700)
+}
+
+.shelf--spc-750 {
+	gap: var(--layout-unit-750)
+}
+
+.shelf--spc-800 {
+	gap: var(--layout-unit-800)
+}
+
+.shelf--spc-900 {
+	gap: var(--layout-unit-900)
+}
+
+.shelf__item--grow {
+	flex-grow: 1
+}

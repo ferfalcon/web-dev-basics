@@ -1,0 +1,60 @@
+﻿/* Layout items in one columns */
+
+.rack {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	gap: var(--layout-unit-400);
+}
+
+.rack--spc-100 {
+	gap: var(--layout-unit-100)
+}
+
+.rack--spc-150 {
+	gap: var(--layout-unit-150)
+}
+
+.rack--spc-200 {
+	gap: var(--layout-unit-200)
+}
+
+.rack--spc-250 {
+	gap: var(--layout-unit-250)
+}
+
+.rack--spc-300 {
+	gap: var(--layout-unit-300)
+}
+
+.rack--spc-400 {
+	gap: var(--layout-unit-400)
+}
+
+.rack--spc-500 {
+	gap: var(--layout-unit-500)
+}
+
+.rack--spc-600 {
+	gap: var(--layout-unit-600)
+}
+
+.rack--spc-700 {
+	gap: var(--layout-unit-700)
+}
+
+.rack--spc-750 {
+	gap: var(--layout-unit-750)
+}
+
+.rack--spc-800 {
+	gap: var(--layout-unit-800)
+}
+
+.rack--spc-850 {
+	gap: var(--layout-unit-850)
+}
+
+.rack--spc-900 {
+	gap: var(--layout-unit-900)
+}

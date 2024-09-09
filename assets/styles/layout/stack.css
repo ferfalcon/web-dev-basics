@@ -1,0 +1,75 @@
+/* 
+	Helps to layout main items such as products, manufacturers, categories, etc. 
+*/
+
+.stack {
+	display: grid;
+	gap: var(--layout-unit-600);
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr));
+	/* align-items: start; */
+	align-items: stretch;
+}
+
+.stack--spc-100 {
+	gap: var(--layout-unit-100);
+}
+
+.stack--spc-200 {
+	gap: var(--layout-unit-200);
+}
+
+.stack--spc-300 {
+	gap: var(--layout-unit-300);
+}
+
+.stack--spc-400 {
+	gap: var(--layout-unit-400);
+}
+
+.stack--spc-500 {
+	gap: var(--layout-unit-500);
+}
+
+.stack--spc-600 {
+	gap: var(--layout-unit-600);
+}
+
+.stack--spc-700 {
+	gap: var(--layout-unit-700);
+}
+
+.stack--spc-750 {
+	gap: var(--layout-unit-750);
+}
+
+.stack--spc-800 {
+	gap: var(--layout-unit-800);
+}
+
+.stack--spc-850 {
+	gap: var(--layout-unit-850);
+}
+
+.stack--spc-900 {
+	gap: var(--layout-unit-900);
+}
+
+.stack--100 {
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--stack-100)), 1fr))
+}
+
+.stack--300 {
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--stack-300)), 1fr));
+}
+
+.stack--500 {
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--stack-500)), 1fr));
+}
+
+.stack--700 {
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--stack-700)), 1fr));
+}
+
+.stack--900 {
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--stack-900)), 1fr));
+}

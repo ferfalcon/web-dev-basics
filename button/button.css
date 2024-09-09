@@ -1,14 +1,16 @@
 .button {
-  font-family: inherit;
-  font-size: inherit;
+  color: black;
+  font: inherit;
+  font-size:small;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
-  padding: 1em 1.25em;
-  text-align: center;
-  color: black;
-  transition: background .3s;
-  background: gainsboro;
+  padding: .5em .75em;
   border: solid thin black;
+  border-radius: 0;
+  width: fit-content;
+  background: gainsboro;
+  transition: background .3s;
 
   &:hover {
     background: whitesmoke;

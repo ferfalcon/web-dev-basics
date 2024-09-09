@@ -1,3 +1,5 @@
+@import url(../styles/layout/_layout.css);
+
 *,
 *::before,
 *::after {
@@ -5,19 +7,6 @@
 }
 
 * {
-  --module-100:  0;
-  --module-200:  .125rem;
-  --module-300:  .25rem;
-  --module-400:  .5rem;
-  --module-500:  .75rem;
-  --module-600:  1rem;
-  --module-700:  1.25rem;
-  --module-800:  1.5rem;
-  --module-820:  2rem;
-  --module-850:  4rem;
-  --module-880:  6rem;
-  --module-900:  8rem;
-
   --cl-neutral--100: hsl(0 0% 0%);
   --cl-neutral--200: hsl(0 0% 10%);
   --cl-neutral--300: hsl(0 0% 30%);
@@ -36,12 +25,12 @@ html {
 body {
   font-family: sans-serif;
 	display: grid;
+  gap: var(--layout-unit-875);
 	align-content: center;
 	margin: 0;
 	min-height: 100svh;
 	scrollbar-gutter: stable;
   background: skyblue;
-  gap: 6rem;
 }
 
 img {
