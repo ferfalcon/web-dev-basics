@@ -1,0 +1,30 @@
+[
+  {
+    "heading": "Photos once described as “almost frameable.” Parrish Freeman", 
+    "excerpt": "Para que exista sombra debe existir luz. Esto significa que debes escoger donde se supone que está la fuente de luz, y que todas las sombras la respeten. La interfaz se verá extraña si va cambiando el valor de X o de Y en cada elemento",
+    "imageSRC": "../assets/images/ladder.jpg",
+    "linkText": "View in unsplash",
+    "linkURL": "https://unsplash.com/photos/blue-and-white-concrete-building-58QVNWSB6qQ"
+  },
+  {
+    "heading": "unsplash.com is a great place to get images for your projects", 
+    "excerpt": "Si el fondo de la página es de color, intenta que la sombra tenga un tono similar (fondo azul, sombra azulada, por ejemplo)",
+    "imageSRC": "../assets/images/more-windows.jpg",
+    "linkText": "View in unsplash",
+    "linkURL": "https://unsplash.com/photos/blue-and-white-concrete-building-58QVNWSB6qQ"
+  },
+  {
+    "heading": "uifrommars.com es un gran sitio para leer contenido de diseño en español", 
+    "excerpt": "El blur es un parámetro que indica un efecto de desenfoque o difuminado. Modificarlo permite dar jerarquía a las diferentes sombras: cuanto más cerca están del soporte, menos sombra proyectan (en el caso del diseño de interfaces, el soporte es el fondo).",
+    "imageSRC": "../assets/images/building.jpg",
+    "linkText": "View in unsplash",
+    "linkURL": "https://unsplash.com/photos/blue-and-white-concrete-building-58QVNWSB6qQ"
+  },
+  {
+    "heading": "Se repite el primer título: Image from Parrish Freeman at unsplash.com", 
+    "excerpt": "Las sombras suaves con blur suelen funcionar mejor, porque se integran mejor con el fondo o el resto de elementos",
+    "imageSRC": "../assets/images/white.jpg",
+    "linkText": "View in unsplash",
+    "linkURL": "https://unsplash.com/photos/blue-and-white-concrete-building-58QVNWSB6qQ"
+  }
+]
